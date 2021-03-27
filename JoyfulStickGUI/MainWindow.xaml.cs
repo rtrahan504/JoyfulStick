@@ -158,8 +158,13 @@ namespace JoyfulStickGUI
                     if (m_CurrentProfileIndex == value)
                         return;
 
-                    m_CurrentProfileIndex = value;
-                    Modified();
+                    if (m_CurrentProfileIndex != -1)
+                    {
+                        m_CurrentProfileIndex = value;
+                        Modified();
+                    }
+                    else
+                        m_CurrentProfileIndex = value;
 
                     if (CurrentProfileChanged != null)
                         CurrentProfileChanged(this, CurrentProfile);
