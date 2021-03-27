@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JoyfulStick", "JoyfulStick\JoyfulStick.vcxproj", "{E1B0FC70-91B1-4D37-97CF-994AAE960D0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JoyfulStickWrapper", "JoyfulStickWrapper\JoyfulStickWrapper.vcxproj", "{8A5C822D-1C32-4759-A7B2-434AC3346A6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1B0FC70-91B1-4D37-97CF-994AAE960D0B} = {E1B0FC70-91B1-4D37-97CF-994AAE960D0B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyfulStickGUI", "JoyfulStickGUI\JoyfulStickGUI.csproj", "{ABBDD7B0-77B4-4FFB-9D68-3D28A624C830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1B0FC70-91B1-4D37-97CF-994AAE960D0B}.Debug|x64.ActiveCfg = Debug|x64
+		{E1B0FC70-91B1-4D37-97CF-994AAE960D0B}.Debug|x64.Build.0 = Debug|x64
+		{E1B0FC70-91B1-4D37-97CF-994AAE960D0B}.Release|x64.ActiveCfg = Release|x64
+		{E1B0FC70-91B1-4D37-97CF-994AAE960D0B}.Release|x64.Build.0 = Release|x64
+		{8A5C822D-1C32-4759-A7B2-434AC3346A6A}.Debug|x64.ActiveCfg = Debug|x64
+		{8A5C822D-1C32-4759-A7B2-434AC3346A6A}.Debug|x64.Build.0 = Debug|x64
+		{8A5C822D-1C32-4759-A7B2-434AC3346A6A}.Release|x64.ActiveCfg = Release|x64
+		{8A5C822D-1C32-4759-A7B2-434AC3346A6A}.Release|x64.Build.0 = Release|x64
+		{ABBDD7B0-77B4-4FFB-9D68-3D28A624C830}.Debug|x64.ActiveCfg = Debug|x64
+		{ABBDD7B0-77B4-4FFB-9D68-3D28A624C830}.Debug|x64.Build.0 = Debug|x64
+		{ABBDD7B0-77B4-4FFB-9D68-3D28A624C830}.Release|x64.ActiveCfg = Release|Any CPU
+		{ABBDD7B0-77B4-4FFB-9D68-3D28A624C830}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEE432F1-0E28-4C40-B1D5-F90455364E5E}
+	EndGlobalSection
+EndGlobal
