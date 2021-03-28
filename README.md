@@ -5,3 +5,5 @@ Joyful Stick is a utility program to help extend the functionality of a Saitek/L
 Unfortunately, for all of the buttons and LEDs to be available to JoyfulStick, the windows "Game Controllers" -> "X52 Professional H.O.T.A.S." Properties page must be left open during use.
 
 Joyful Stick relies on having a vJoy device created. It is suggested to create a vJoy device with X, Y, Z, Rx, Ry, Rz, and slider axes, 120 virtual buttons, and 1 continuous POV hat.
+
+Included is a powershell script StartDCS.ps1 which can be called to start JoyfulStick, open the necessary joystick dialogs, optionally open TrackIR, and start whatever game you desire. You can create shortcuts to this script for convenience.
