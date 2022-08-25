@@ -54,7 +54,7 @@
         <Separator Grid.Row="1"/>
         <Label Grid.Row="2" xml:space="preserve">Version: 0.0.1
 Copyright (C) 2021 Russell Trahan
-This product is licensed unther the MIT License.</Label>
+This product is licensed under the MIT License.</Label>
 
         <Border Grid.Row="3" BorderBrush="#555" Background="#222" BorderThickness="1">
             <ScrollViewer>
